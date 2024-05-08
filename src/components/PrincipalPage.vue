@@ -5,7 +5,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <div class="template">
-    <nav v-if="route.path !== '/home'" class="navegacion">
+    <nav  class="navegacion">
       <img src="../assets/logo2.jpg" alt="" class="imagen_navegacion">
       <div class="links">
         <router-link to="/inicio" class="navegacion__enlace">Principal</router-link>
@@ -19,7 +19,7 @@
       <router-view></router-view>
     </div>
 
-    <footer v-if="route.path !== '/home'"  >
+    <footer  >
  
       <p class="footer__texto">Realizado por Luz Angela Fernandez y Jesus Soto.</p>
     </footer>
@@ -51,13 +51,7 @@
         case '/inicio':
         datos.value = 'inicio';
         break;
-        case '/home':
-        datos.value = 'home';
-        break;
-        case '/admin':
-        datos.value = 'admin';
-        break;
-
+       
     }
   }
   
