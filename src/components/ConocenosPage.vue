@@ -7,7 +7,7 @@
              <div class="parte-inicial">
               <img src="../assets/5.jpg" alt="" class="imagen_principal">
               <p>
-                nos enorgullecemos de ofrecer una experiencia gastronómica única. 
+                Nos enorgullecemos de ofrecer una experiencia gastronómica única. 
                 Somos tu destino ideal para satisfacer esos antojos de comida rápida con sabores auténticos y calidad.
                 Nuestro menú está cuidadosamente diseñado para complacer a todos los gustos y antojos. Desde jugosas 
                 hamburguesas con ingredientes frescos y salsas caseras hasta deliciosos asados para diferentes preferencias,
